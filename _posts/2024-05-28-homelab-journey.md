@@ -21,7 +21,7 @@ As we transition from discussing the "why" to the "how," it becomes crucial to p
 
 ## Goals of my Hardwares choice 
 
-Although you don't necessarily have to purchase additional devices since you can achieve your learning objectives on cloud platforms like Linode or DigitalOcean, I wanted to set up my own lab with budget-friendly physical devices. Instead of building my server from scratch, I opted for an old prebuilt machine that was powerful enough to handle everything outlined in the diagram.
+Although you don't necessarily have to purchase additional devices since you can achieve your learning objectives on cloud platforms like Linode or DigitalOcean, I wanted to set up my own lab with budget-friendly physical devices. Instead of building my server from scratch, I went for an old prebuilt machine that was powerful enough to handle everything outlined in the diagram.
 
 Here are some objectives for the hardware in my homelab:
 
@@ -37,26 +37,12 @@ Additionally, I aim to collect some single-board devices for small projects that
 
 After planning and search through multiple sites, I stumbled upon a couple of devices that were powerful enough to help me achieve my goals. Here are the devices I purchased:
 
-#### Main Server:
-- Make: Dell
-- Model: Precision T5810
-- CPU: Intel Xeon E5-2680 V3 2.5GHz 12 Core
-- Ram: 128GB
-- Storage: 2x1TB SSD and 1x4TB HDD
+| Device Type         | Make         | Model           | CPU                                     | RAM    | Storage               | Quantity  |
+|---------------------|--------------|-----------------|-----------------------------------------|--------|-----------------------|----------------|
+| Main Server         | Dell         | Precision T5810 | Intel Xeon E5-2680 V3 2.5GHz 12 Core   | 128GB  | 2x1TB SSD, 1x4TB HDD  | 1  |
+| NAS           | Datto        | S3B2000         | Intel Xeon D-1521 2.40GHz               | 32GB   | 2x4TB, 2x6TB          | 1 | 
+| SingleBoard | Raspberry Pi | RP 3 Model B   | Quad Core 1.2GHz Broadcom BCM2837 64bit | 1GB    | 32GB MicroSD             | 8 |
 
-#### NAS Server
-- Make: Datto
-- Model: S3B2000
-- CPU: Intel Xeon D-1521 2.40GHz 
-- Ram: 32GB
-- Storage: 2x4TB and 2x6TB
-
-#### SingleBoard Devices
-- Make: Raspberry Pi
-- Model: RP 3 Model B
-- CPU: Quad Core 1.2GHz Broadcom BCM2837 64bit
-- Ram: 1GB
-- Quantity: 8 devices
 
 These devices, while minimal, are incredibly powerful and fulfill every requirement for my homelab.
 
@@ -80,53 +66,24 @@ For simplicity and efficiency, I have chosen Docker as my main choice of contain
 
 ## Additional Software running my homelab
 
-While the choice of operating system forms the backbone of my homelab, it's the services I'm utilizing within those operating systems that truly drive its purpose. Each service serves a specific function, channelizing the capabilities of my homelab. Here's a rundown of the services I've deployed:
+While the choice of operating system forms the backbone of my homelab, it's the services I'm going to utilize within those operating systems that truly drive its purpose. Each service serves a specific function, channelizing the capabilities of my homelab. Here's a rundown of the services I want to tested out:
 
-#### Virtual Machne:
-- Ubuntu Server 20.04
-- Kali Linux
-- Windows Server 2019
-- Windows 10 Pro
-- Ubuntu Desktop
-- Rocky Linux
+| Category         | Items                                 |
+|-----------------|---------------------------------------|
+| Virtual Machine  | Ubuntu Server 20.04, Kali Linux, Windows Server 2019, Windows 10 Pro, Ubuntu Desktop, Rocky Linux |
+| Networking       | Packet Tracer, GNS3, OPNsense, Mesh VPN |
+| Security         | Wazuh                                 |
+| DNS              | PiHole, Bind9                         |
+| Development      | Gitea, Gitlab, Code Server, Wordpress         |
+| Automation       | Ansible, Terraform, Cloudinit, Python            |
+| Monitoring       | Uptime Kuma, NetData, Grafana         |
+| Reverse Manager  | NGINX Proxy Manager, Traefik          |
+| Containerization | Docker, Docker Swarm, Kubernetes |
 
-#### Networking:
-- Packet Tracer
-- GNS3
-- OPNsense
-- Mesh VPN
 
-#### Security
-- Wazuh
-
-#### DNS:
-- PiHole
-- Bind9
-
-#### Development:
-- Gitea
-- Code Server
-- Wordpress
-
-#### Automation: 
-- Ansible
-- Cloudinit
-- Python 
-
-#### Monitoring
-- Uptime Kuma
-- NetData
-- Grafana
-
-#### Reverse Manager
-- NGIX Proxy Manager
-- Traefik
-
-Each of these services plays a crucial role in enhancing the functionality, security, and efficiency of my homelab environment.
 
 ## Best Practice for Homelab
 
-  
 Before you started using VM in proxmox, it's crucial to follow the proper best practices to ensure a hassle-free process in the future.
 
 #### Hardware Resources Allocation
@@ -149,6 +106,7 @@ Before you started using VM in proxmox, it's crucial to follow the proper best p
 I cannot stress enough the importance of documenting your homelab. As humans, our memory can only retain so much, and documentation becomes your best friend in the process. Begin by listing all hardware components, providing detailed information about servers, networking gear, and storage devices. Describe your network configuration thoroughly, including IP addresses, VLANs, and any special setups. Outline your server configurations, noting hardware specifications, installed operating systems, and additional software.
 
 By maintaining this documentation, you'll gain a clear understanding of your homelab's architecture, making it easier to troubleshoot issues, plan upgrades, and ensure smooth operation. Whether it's a hardware failure, network reconfiguration, or software upgrade, having comprehensive documentation will save you time and effort in managing your homelab effectively.
+
 ## Conclusion
 
 Homelab offers an excellent opportunity to enhance your learning and elevate your technical skills. The beauty of homelab is that you get to decide how you want to build it and what you want to learn. Don't wait for the perfect equipment or timing to start your homelab journey. Begin small, and then expand your environment based on your needs and interests.
