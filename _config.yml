@@ -16,7 +16,7 @@ timezone: America/New_York
 
 title: Utba Zafar # the main title
 
-tagline: My Tech Tales Dairy # it will display as the sub-title
+tagline: My Tech Tales Dairies # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
