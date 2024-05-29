@@ -1,7 +1,7 @@
 ---
 title: My Homelab Journey
 description: An overview of my homelab
-date: 2022-05-21 12:00:00 -500
+date: 2024-05-28 12:00:00 -400
 categories: [homelab]
 tags: [server, hardware]     # TAG names should always be lowercase
 image:
