@@ -2,7 +2,7 @@
 title: My Homelab Journey
 description: An overview of my homelab
 date: 2024-05-28 12:00:00 -400
-categories: [homelab]
+categories: [Homelab]
 tags: [server, hardware]     # TAG names should always be lowercase
 image:
     path: /assets/content/homelab/Homelab-Journey.jpg
