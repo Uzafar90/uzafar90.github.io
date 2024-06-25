@@ -4,8 +4,16 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hey there! I'm a System Engineer and a total homelab geek. I've been diving into the world of designing, implementing, and tinkering with all sorts of IT setups to make sure they're top-notch in performance and security.
+![about-me](/assets/content/aboutme/about-session.jpg)
 
-To keep my skills sharp, I'm constantly playing around with my homelab setup, experimenting with different tech and recreating real-world scenarios. I'm all about diving into system architecture, tweaking network setups, virtualization, and automating tasks using cool tools like Docker, Kubernetes, Ansible, and whatever cloud platforms catch my eye.
+## Hey there! 👋
 
-I've put together this site to document my homelab adventures and share them with others in the community who are also into this stuff. I'm not claiming to be an expert, but I really believe in the power of documentation, especially in the continuously developing world of IT. It's all about keeping track of your setups and resources, you know? Let's geek out together!
+I’m Utba Zafar, a Systems Engineer, a DevOps Enthusiast, and a total Homelab Nerd. I’ve been working in the Field of IT well over 4 years now and been playing around with different IT setups in terms of designing, implementing, and experimenting to ensure they perform well and stay secure. 
+
+However, I wanted to expand my knowledge and learn new technologies by creating a small lab at home and try to build, break, and fix. This enable me to resemble the real world environment at home and gain skills by applying into the configuration and installation. 
+
+I’m not claiming to be an expert, but I really believe in the power of documentation, especially in the continuously developing world of IT. It’s all about keeping track of your setups and resources. 
+
+# Contact
+
+I've built up a little project where I've embedded [links](https://links.utbazafar.com/) to all my social media. It's like a one-stop shop for stalking me online! 🤟
