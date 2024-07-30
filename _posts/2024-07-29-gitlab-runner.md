@@ -11,8 +11,6 @@ image:
 # Part 1: GitLab-CE Deployment
 ## What is GitLab? 
 
-GitLab is a source control management tool, much like GitHub, but with the added benefit of being self-hosted. This means you can manage and maintain your code on your own servers. You might be asking yourself, "Why use GitLab when GitHub already exists for storing repositories?" The answer lies in GitLab's extensive features, which you can leverage in your local environment. It's especially useful for those learning DevOps, as it provides robust tools for building and deploying applications in containers.
-
 GitLab is a source control management tool, similar to GitHub, but with the additional advantage of being self-hosted. This capability allows you to manage and maintain your code on your own servers. One might question the necessity of using GitLab when GitHub already exists for repository storage. The rationale is found in GitLab's extensive features, which can be utilized within your local environment. It is particularly beneficial for individuals learning DevOps, as it offers comprehensive tools for building and deploying applications in containers.
 
 
