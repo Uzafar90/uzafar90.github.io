@@ -34,7 +34,7 @@ I could walk you through the entire process of setting up a Linux server and ins
 
 ### Initial Linux Packages and Docker Installation Bash Script
 
-I have a GitHub repository with some bash scripts that can help speed up the installation of initial packages and Docker on a Linux server. Before running these scripts, please review their contents to ensure the package utilities match your Linux distribution. My primary choice is Ubuntu Server, so I've included "sudo" in the scripts.
+I have a GitHub repository with some bash scripts that can help speed up the installation of initial packages and Docker on a Linux server. Before running these scripts, please review their contents to ensure the package utilities match your Linux distribution. My primary choice is Ubuntu Server, so I've included "sudo apt" in the scripts.
 
 #### Repository Links
 - [Linux Package Script](https://github.com/Uzafar90/useful-bash-scripts/blob/main/initial_linux_setup.sh)
