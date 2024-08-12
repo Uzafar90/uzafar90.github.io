@@ -236,7 +236,7 @@ Next, you'll be guided through a few steps to register our CI/CD Pipeline. Here'
 - A description for the runner
 - Tags for the runner
 - An optional maintenance note for the runner
-- The default Docker images
+- The default Docker image
 
 
 ![gitllab runner question2](/assets/content/gitlab-runner/runner-question2.png)
