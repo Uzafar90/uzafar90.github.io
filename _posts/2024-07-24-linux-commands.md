@@ -3,7 +3,7 @@ title: Essential Linux Commands for Beginners
 description: This blog post will cover the most essential commands that every beginner should learn.
 date: 2024-07-24 12:00:00 -400
 categories: [Linux]
-tags: [Linux, Commands, bash]     # TAG names should always be lowercase
+tags: [linux, commands, bash]     # TAG names should always be lowercase
 image:
     path: /assets/content/linux-commands/linux_bg.jpg
 ---
