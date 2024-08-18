@@ -57,7 +57,7 @@ Next, follow the steps outlined below to locate your IP address in the router an
 5. **SSH into Raspberry Pi**: Use the identified IP address to SSH into your Raspberry Pi. You can do this by opening a terminal on your computer and typing:
 
 
-```Shell
+```shell
 
  # Replace `<user> and <IP_ADDRESS>` with the actual IP address
  ssh <user>@<IP_ADDRESS> 
