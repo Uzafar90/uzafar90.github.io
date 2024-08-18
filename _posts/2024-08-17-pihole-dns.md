@@ -59,7 +59,7 @@ Next, follow the steps outlined below to locate your IP address in the router an
 
 ```shell
 
- # Replace `<user> and <IP_ADDRESS>` with the actual IP address
+ # Replace <user> and <IP_ADDRESS> with the actual IP address
  ssh <user>@<IP_ADDRESS> 
 
 ```
