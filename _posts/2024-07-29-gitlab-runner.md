@@ -3,7 +3,7 @@ title: How to self-host GitLab and GitLab runner using Docker container
 description: The article is a detailed guide on how to self-host GitLab. It covers its wide range of DevOps features, the installation requirements, and the advantages of managing your code on your own servers.
 date: 2024-07-29 12:00:00 -400
 categories: [Development]
-tags: [Linux, Gitlab, Git, Version Control]     # TAG names should always be lowercase
+tags: [linux, gitlab, git, version control]     # TAG names should always be lowercase
 image:
     path: /assets/content/gitlab-runner/gitlab-runners.jpg
 ---
