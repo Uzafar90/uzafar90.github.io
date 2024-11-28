@@ -1,6 +1,6 @@
 ---
 title: The Perfect Combination of Jenkins and Gitlab CE 
-description: A comprehensive guide on automating virtual machine deployment in Proxmox with Terraform.
+description: A guide that demonstrates how to integrate Jenkins with GitLab.
 date: 2024-11-28 12:00:00 -400
 categories: [Development]
 tags: [gitlab, jenkins, development]     # TAG names should always be lowercase
