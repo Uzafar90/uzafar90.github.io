@@ -16,4 +16,4 @@ I’m not claiming to be an expert, but I really believe in the power of documen
 
 # Contact
 
-I've built up a little project where I've embedded [links](https://links.utbazafar.com/) to all my social media. It's like a one-stop shop for stalking me online! 🤟
+I've built up a little project where I've embedded [links](https://links.utbazafar.com/) to all my social media. It's like a one-stop shop for stalking me online! 
