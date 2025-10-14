@@ -14,7 +14,7 @@ image:
 
 Proxmox Virtual Environment (Proxmox VE) is a free and open-source platform for managing server virtualization. It provides an easy-to-use web interface for handling virtual machines (VMs), containers, and storage resources. Proxmox VE supports KVM for full virtualization and LXC for containerization, offering a flexible solution for different virtualization requirements.
 
-## Installation of Proxmox
+## Installation of Proxmox :)
 
 Now that you understand what Proxmox is and have decided to use it as the primary OS for your server, installing Proxmox is a straightforward process. Here’s a step-by-step guide:
 
